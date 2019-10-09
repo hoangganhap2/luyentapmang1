@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var a=[];
+    var b;
+    for(let i=0;i<10;i++){
+        a[i]=parseInt(prompt("Nhập vào số"));
+    }
+    b=parseInt(prompt("Nhập vào số V"));
+    for(let i=0;i<a.length;i++){
+        if(b===a[i]){
+            for (;i<a.length;i++){
+                a[i]=a[i+1];
+            }
+        }
+    }
+    a[a.length-1]=0;
+    document.writeln(a);
+</script>
+</body>
+</html>

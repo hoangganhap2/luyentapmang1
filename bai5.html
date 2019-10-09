@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var a = [];
+    var count = 0;
+    for (let i = 0; i < 5; i++) {
+        a[i] = parseInt(prompt("Nhập số"));
+    }
+    for (let i=0;i<a.length;i++)
+    if (a[i] < 0) {
+        count = count + 1;
+    }
+    document.writeln(count)
+
+
+</script>
+</body>
+</html>

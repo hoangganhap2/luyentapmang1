@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var a=[4,5,43,32,23];
+    var max=a[0];
+    var sum=0;
+    var ave=0;
+    for(let i=0;i<5;i++){
+        if(a[i]>max){
+            max=a[i];
+        }
+        sum+=a[i];
+        ave=sum/5;
+    }
+    document.writeln("max: "+max+" trung bình: "+ave);
+
+
+</script>
+</body>
+</html>
